@@ -1,0 +1,31 @@
+git init: inicializar o repositório, cria um diretorio /.git que será um hitorico de todos os seus arquivos dentro do seu repositorio
+
+git status: 
+staged:arquivos pronto pro commit
+unstaged:
+untracked:
+delete:
+
+git add <nomeArquivo.txt>: usado para adicionar um arquivo à staging area
+
+git add --all/-A/*: adiciona tudo a staging area
+
+git reset: remover arquivos da staging area
+
+git commit -m "mensagem do commit": "foto" do momento do commit dos arquivos
+
+git log: mostra quais foram as alterações ate o momento
+
+git push: comando do git usado para gravar o seu repositorio local e todo o seu historio em seu repositorio remoto. O origim é nosso remoto, enquanto master é a branch padrão. O parametro -u faz com que o git se lembre dos parametros origim e master, assim só é necessario fazer um fir push na proxima vez
+
+git pull: é o comando do gir usado para puxar de volta o seu repositorio remoto e todo o seu historico para seu repositorio local caso outra pessoa tenha feito alterações. O origin é o nosso remote, enquanto master eh a branch
+
+git stash: pega os arquivos alterados e guarda eles
+
+git diff HEAD: compara oq ta na nuvem com oq ta no seu computador
+
+git checkout: voltar os arquivos para como eles eram antes da alteração
+
+git branch: cópia do seu código
+
+git merge <nome da outra branch>: junta as branchs
