@@ -29,3 +29,5 @@ git checkout: voltar os arquivos para como eles eram antes da alteração
 git branch: cópia do seu código
 
 git merge <nome da outra branch>: junta as branchs
+
+TESTE 1
